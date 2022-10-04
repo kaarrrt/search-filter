@@ -1,0 +1,11 @@
+.main{
+    font-family: 'Poppins', sans-serif;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+}
+.cards>*{
+    flex:0 0 24.33333%;
+}
