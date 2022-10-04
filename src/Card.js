@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import bed from './images/bed.png'
 import bath from './images/bath.png'
 import like from './images/like.png'

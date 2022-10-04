@@ -13,7 +13,7 @@ const Main = () => {
   const [cards,updateCards]=useState(CardImages)
   const onEventChange=(e)=>{
     const newcards=CardImages.filter((card)=>{
-        if(card.state==loc && card.range==price && card.type==type && card.month==month){
+        if(card.state===loc && card.range===price && card.type===type && card.month===month){
           return card
         }
       })
