@@ -16,6 +16,7 @@ const Main = () => {
         if(card.state===loc && card.range===price && card.type===type && card.month===month){
           return card
         }
+        return []
       })
     updateCards(newcards);
   }
