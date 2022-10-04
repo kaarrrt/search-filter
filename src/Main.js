@@ -12,11 +12,13 @@ const Main = () => {
   const [month,newMonth]=useState('oct');
   const [cards,updateCards]=useState(CardImages)
   const onEventChange=(e)=>{
+    //eslint-disable-next-line 
     const newcards=CardImages.filter((card)=>{
         if(card.state===loc && card.range===price && card.type===type && card.month===month){
-          return card
+          
+          return (card)
+          
         }
-        return []
       })
     updateCards(newcards);
   }
