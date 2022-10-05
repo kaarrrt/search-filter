@@ -65,7 +65,7 @@ const Images=[
         title:"Mannat",
         price:"2955",
         state:"ny",
-        range:'md',
+        range:'lux',
         address:"2818 Lake Sevilla,Palm Harbour,NY",
         type:'houses',
         bed:4,
