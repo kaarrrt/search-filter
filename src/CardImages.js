@@ -64,7 +64,7 @@ const Images=[
         pic:h2,
         title:"Mannat",
         price:"2955",
-        state:"NY",
+        state:"ny",
         range:'md',
         address:"2818 Lake Sevilla,Palm Harbour,NY",
         type:'houses',
@@ -85,6 +85,32 @@ const Images=[
         bed:4,
         bath:2,
         month:"nov"
-    }
+    },
+    {   
+        id:7,
+        pic:h6,
+        title:"Great Paraside",
+        price:"3100",
+        state:"ny",
+        range:'lux',
+        address:"2818 Lake Sevilla,Palm Harbour,NY",
+        type:'apartments',
+        bed:4,
+        bath:2,
+        month:"nov"
+    },
+    {   
+        id:8,
+        pic:h6,
+        title:"Victor",
+        price:"2600",
+        state:"ny",
+        range:'md',
+        address:"2818 Lake Sevilla,Palm Harbour,NY",
+        type:'houses',
+        bed:4,
+        bath:2,
+        month:"nov"
+    },
 ]
 export default Images;
